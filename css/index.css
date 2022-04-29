@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, a, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+    ul li {
+        list-style: none;
+    }
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.section {
+    padding: 30px;
+}
+
+.sec-1 {
+    background: #ffd800;
+}
+
+.sec-2 {
+    background: #b6ff00;
+}
+
+.sec-3 {
+    background: #0094ff;
+}
+
+.sec-4 {
+    background: #ff006e;
+}
+
+
+.sec-5 {
+    background: #b200ff;
+}
+
+.sec-6 {
+    background: #b6ff00;
+}
+
+
+#root-navbar .navbar ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+    #root-navbar .navbar ul li.dropdown .dropdown-menu.hide {
+        display: none !important;
+    }
+
+    #root-navbar .navbar ul li.dropdown .dropdown-menu a.dropdown-item {
+        float: none !important;
+    }
+
+#root-navbar .navbar form input, #root-navbar .navbar form button{float: left;}
+
+
+dropdown-menu.show{display: block;}
