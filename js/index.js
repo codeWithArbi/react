@@ -1,5 +1,4 @@
- import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
- import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+ 
  import React from 'react';
  import { render } from 'react-dom';
  import './index.css';
@@ -9,7 +8,6 @@
 
 
 reportWebVitals();
-
 
 var rootNavbarEL = document.getElementById("root-navbar");
 var rootEL = document.getElementById("root");
@@ -243,3 +241,4 @@ export default class NavBarExample extends React.Component {
 render(<NavBarExample />, rootSixEL);
 const rootavbar1 = createRoot(rootSixEL);
 rootavbar1.render(<NavBarExample />);
+
